@@ -1,0 +1,33 @@
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.content {
+
+    margin-left: 500px;
+}
+
+p{
+    font-size:15px;
+    color: gold;
+    font-weight: bold;
+}
+
+body{
+    background-image: url(../Pictures/Beach.jpg);
+    font-size:15px;
+    color: gold;
+    font-weight: bold;
+}
+
+.beach{
+    background-image: url(../Pictures/Beach.jpg);
+  
+}
+
+.bb{
+    background-color: coral;
+    opacity: .5;
+}
+
