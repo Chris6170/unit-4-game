@@ -17,7 +17,7 @@ $(document).ready(function () {
     //  This starts the game
     function startGame() {
 
-        target.val((Math.floor(Math.random() * 120)))
+        target.val((Math.floor(Math.random() * 120)));
         target.html(target.val());
         score.val(0);
         score.html(score.val());
@@ -87,6 +87,9 @@ $(document).ready(function () {
            total = 0;
            lose.html(addedLoss);
            gemVal();
+           
+        target.val((Math.floor(Math.random() * 120)));
+        target.html(target.val());
            
           
         }
